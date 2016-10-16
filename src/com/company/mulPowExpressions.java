@@ -211,7 +211,5 @@ public class mulPowExpressions<F,K,P> {
         System.out.println();
         System.out.println(exp.getValue("y"));*/
     }
+
 }
-
-
-//hahahahahah
