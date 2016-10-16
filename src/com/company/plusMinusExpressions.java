@@ -132,4 +132,48 @@ public class plusMinusExpressions<S,F,K,P> {
         return str;
     }
 
+    public static void main(String[] args) {
+        String s = "3*x-4*y^2";
+        plusMinusExpressions<String,Integer,String,Integer> pme = new plusMinusExpressions<>();
+        mulPowExpressions<Integer,String,Integer> pmeTemp = new mulPowExpressions<>();
+
+        if (!pme.plusMinusCollect(s)) {
+            System.out.println("Wrong");
+            return;
+        }
+
+        else if (!pme.expressionInit(s)) {
+            System.out.println("Please Enter Expressions Again.");
+            return;
+        }
+
+        /*Vector<String> V = pme.connector;
+
+        for (String v : V) {
+            System.out.print(v);
+        }
+        System.out.println();
+
+        pmeTemp = pme.exps.get(1);
+        for (int j = 0; j < pmeTemp.factor.size(); j++) {
+            System.out.println(pmeTemp.factor.get(j));
+        }
+        System.out.println();
+        Enumeration<String> keys = pmeTemp.alphabet.keys();
+        while(keys.hasMoreElements()){
+            System.out.print(keys.nextElement() + " ");
+        }
+        System.out.println();
+        Enumeration<Integer> elements = pmeTemp.alphabet.elements();
+        while(elements.hasMoreElements()){
+            System.out.print(elements.nextElement() + " ");
+        }
+        System.out.println();*/
+        /*String[] sss = {"y"};
+        Integer[] ppp = {1};
+        String res = pme.simplify(sss,ppp);
+        System.out.println(res);*/
+        String ress = pme.derivative("y");
+        System.out.println(dealString(ress));
+    }
 }
