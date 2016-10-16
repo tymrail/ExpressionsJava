@@ -98,4 +98,7 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         }
         System.out.println();
     }
+    //In action how like an angel.
 }
+
+//In action how like an angel.
