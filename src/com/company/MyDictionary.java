@@ -43,7 +43,7 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         int i = keys.indexOf(key);
         if (i != -1) {
             V oldElement = this.elements.elementAt(i);
-            Object newValue = (Integer) value + (Integer)newElement;
+            Object newValue = (Integer) value + (Integer)oldElement;
             this.elements.setElementAt((V) newValue, i);
             return oldElement;
         } else {
