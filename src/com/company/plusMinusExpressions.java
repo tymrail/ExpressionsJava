@@ -147,7 +147,7 @@ public class plusMinusExpressions<S,F,K,P> {
             return;
         }
 
-        /*Vector<String> V = pme.connector;
+        /*Vector<String> V = pme.connerssda;
 
         for (String v : V) {
             System.out.print(v);
