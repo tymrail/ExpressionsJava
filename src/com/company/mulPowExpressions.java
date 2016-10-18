@@ -175,7 +175,7 @@ public class mulPowExpressions<F,K,P> {
         for (F num : facs) {
             finalFac *= (Integer) num;
         }
-        String result = new String();
+        String result =dsasdasdasd);
         if (!dic.isEmpty()) {
             result = dic.getKey(0).toString();
             if ((Integer)dic.getValue(0)!=1)
