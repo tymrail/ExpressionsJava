@@ -84,7 +84,7 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         dic.put("y", 2);
         dic.put("z", 3);
         dic.put("w", 4);
-        dic.put("x", -8);
+        dic.putout("x", -8);
         System.out.println(dic.get("x") + dic.get("w"));
         System.out.println(dic.isExist("x"));
         Enumeration<String> keys = dic.keys();
