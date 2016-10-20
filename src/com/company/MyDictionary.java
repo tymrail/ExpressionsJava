@@ -77,7 +77,7 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         else
             return true;
     }
-
+//1234567
     public static void main(String[] args) {
         MyDictionary<String,Integer> dic = new MyDictionary<>();
         dic.put("x", 7);

@@ -116,7 +116,7 @@ public class mulPowExpressions<F,K,P> {
         for (dicSet s : list) {
             initLetter(s.getCharactor(),s.getPower());
         }
-
+//1234567
         return true;
     }
 
