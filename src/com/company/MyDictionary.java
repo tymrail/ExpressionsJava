@@ -77,14 +77,14 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         else
             return true;
     }
-//1234567
+
     public static void main(String[] args) {
         MyDictionary<String,Integer> dic = new MyDictionary<>();
         dic.put("x", 7);
         dic.put("y", 2);
         dic.put("z", 3);
         dic.put("w", 4);
-        dic.put("x", -8);
+
         System.out.println(dic.get("x") + dic.get("w"));
         System.out.println(dic.isExist("x"));
         Enumeration<String> keys = dic.keys();
@@ -101,4 +101,5 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
     //In action how like an angel.
 }
 
-//In action how like an angel.
+}
+
