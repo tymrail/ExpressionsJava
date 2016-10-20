@@ -1,5 +1,4 @@
 package com.company;
-
 import java.util.Vector;
 
 public class plusMinusExpressions<S,F,K,P> {
@@ -132,6 +131,8 @@ public class plusMinusExpressions<S,F,K,P> {
         return str;
     }
 
+}
+//1234567
     public static void main(String[] args) {
         String s = "3*x-4*y^2";
         plusMinusExpressions<String,Integer,String,Integer> pme = new plusMinusExpressions<>();
@@ -177,3 +178,4 @@ public class plusMinusExpressions<S,F,K,P> {
         System.out.println(dealString(ress));
     }
 }
+

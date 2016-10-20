@@ -116,7 +116,6 @@ public class mulPowExpressions<F,K,P> {
         for (dicSet s : list) {
             initLetter(s.getCharactor(),s.getPower());
         }
-
         return true;
     }
 
@@ -192,6 +191,10 @@ public class mulPowExpressions<F,K,P> {
     }
 
 
+}
+//In action how like an angel.
+
+
     public static void main(String[] args) {
         mulPowExpressions<Integer,String,Integer> exp = new mulPowExpressions<>();
         exp.init("z*y^2^2*a^2*xyz^2^2");
@@ -212,3 +215,4 @@ public class mulPowExpressions<F,K,P> {
         System.out.println(exp.getValue("y"));*/
     }
 }
+
